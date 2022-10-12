@@ -17,7 +17,7 @@ export default function Header() {
           <Box as="header" sx={styles.header}>
             <Container>
               <Box sx={styles.headerInner}>
-                <img src={mainLogo} alt="fireSpot" />
+                <img src={mainLogo} sx={styles.logo} alt="fireSpot" />
                 {/* <Logo sx={styles.logo} /> */}
                 <Box as="nav" sx={styles.navbar} className="navbar">
                   <Box as="ul" sx={styles.navList}>
@@ -27,9 +27,9 @@ export default function Header() {
                       </li>
                     ))}
                   </Box>
-                  {/* <Button variant="text" sx={styles.getStartedDesktop}>
-                    Get Started
-                  </Button> */}
+                  <Button variant="text" sx={styles.getStartedDesktop}>
+                    {/* Get Started */}
+                  </Button>
                 </Box>
                 {/* <Button variant="text" sx={styles.getStartedMobile}>
                   Get Started
@@ -73,6 +73,7 @@ const styles = {
   },
   logo: {
     mr: [null, null, null, null, 6, 12],
+    width: [250, null, null, null, null, null],
   },
   navbar: {
     display: ['none', null, null, null, 'flex'],
@@ -87,7 +88,7 @@ const styles = {
     flexGrow: 1,
     p: 0,
     'li:last-child': {
-      ml: ['auto'],
+      ml: ['unset'],
     },
     '.nav-item': {
       cursor: 'pointer',

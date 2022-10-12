@@ -5,7 +5,7 @@ export default [
   },
   {
     path: 'services',
-    label: 'Services',
+    label: 'Our Services',
   },
   {
     path: 'team',
@@ -13,14 +13,10 @@ export default [
   },
   {
     path: 'why-us',
-    label: 'Why Us',
+    label: 'About Us',
   },
   {
     path: 'blog',
-    label: 'Blog',
-  },
-  {
-    path: 'login',
-    label: 'Login',
+    label: 'Contacts',
   },
 ];

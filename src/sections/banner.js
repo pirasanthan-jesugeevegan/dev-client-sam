@@ -3,7 +3,7 @@
 import { jsx, Box, Container, Button, Image } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
-import illustration from 'assets/images/banner-illustration.png';
+import illustration from 'assets/images/banner1.png';
 
 const Banner = () => {
   return (
@@ -12,13 +12,13 @@ const Banner = () => {
         <Box sx={styles.contentWrapper}>
           <SectionHeading
             sx={styles.heading}
-            title="Creativity starts with viewing the whole world differently"
-            description="A service agency with customer satisfaction"
+            title="Simple | Jobseeker | Recruitment"
+            description="A Recruitment Agency with Integrity"
           />
           <Box as="figure" sx={styles.illustration}>
-            <Box sx={styles.buttonWrapper}>
+            {/* <Box sx={styles.buttonWrapper}>
               <Button>Get Started</Button>
-            </Box>
+            </Box> */}
             <Image src={illustration} alt="illustration" />
           </Box>
         </Box>
@@ -69,7 +69,7 @@ const styles = {
     position: 'relative',
     img: {
       display: ['none', null, null, 'block'],
-      maxWidth: ['90%'],
+      maxWidth: ['70%'],
       m: ['0 auto'],
     },
   },
