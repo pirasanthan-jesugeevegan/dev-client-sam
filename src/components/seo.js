@@ -2,10 +2,10 @@ import React from 'react';
 import Head from 'next/head';
 
 export default function SEO({
-  description = 'startup landing descriptions',
-  author = 'RedQ, Inc',
+  description = 'SJR Talent Solutions is a recruitment agency and Job recruitment agency that specialises in Property Law, Mortgage Brokers, Client Relationship Manager, Sales Manager, Law & Accountants',
+  author = 'SJR Talent Solutions',
   meta,
-  title = 'startup landing title',
+  title = 'SJR Talent Solutions | Recruitment Agency',
 }) {
   const metaData = [
     {
