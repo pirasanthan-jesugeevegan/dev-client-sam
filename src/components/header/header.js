@@ -3,6 +3,7 @@
 import { jsx, Box, Container, Button } from 'theme-ui';
 import Sticky from 'react-stickynode';
 import Logo from 'components/logo';
+import mainLogo from '../../assets/images/image2vector-svg (1).png';
 import { NavLink } from 'components/link';
 import { DrawerProvider } from 'contexts/drawer/drawer-provider';
 import NavbarDrawer from './navbar-drawer';
@@ -16,7 +17,8 @@ export default function Header() {
           <Box as="header" sx={styles.header}>
             <Container>
               <Box sx={styles.headerInner}>
-                <Logo sx={styles.logo} />
+                <img src={mainLogo} alt="fireSpot" />
+                {/* <Logo sx={styles.logo} /> */}
                 <Box as="nav" sx={styles.navbar} className="navbar">
                   <Box as="ul" sx={styles.navList}>
                     {menuItems.map(({ path, label }, i) => (
