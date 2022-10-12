@@ -73,7 +73,7 @@ const styles = {
   },
   logo: {
     mr: [null, null, null, null, 6, 12],
-    width: [250, null, null, null, null, null],
+    width: [260, null, null, null, null, 300],
   },
   navbar: {
     display: ['none', null, null, null, 'flex'],
