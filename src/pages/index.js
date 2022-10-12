@@ -23,10 +23,10 @@ export default function IndexPage() {
         <Services />
         {/* <Testimonials /> */}
         <OurTeam />
-        {/* <OtherServices /> */}
+
         <WhyUs />
         {/* <Blog /> */}
-        <SubscribeUs />
+        <OtherServices />
       </Layout>
     </ThemeProvider>
   );

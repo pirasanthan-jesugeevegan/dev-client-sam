@@ -11,23 +11,14 @@ export default function Footer() {
   return (
     <Box as="footer" sx={styles.footer}>
       <Container>
-        <Box sx={styles.footerTopInner}>
-          <Box sx={styles.about}>
-            <Box sx={styles.logo}>
-              <Logo />
-            </Box>
-            <Box sx={styles.terms}>
-              <Link path="#!">Terms of use</Link>
-              <Text as="span">|</Text>
-              <Link path="#!">Privacy</Link>
-            </Box>
-            <Text as="p" sx={styles.copyright}>
-              Copyright by {new Date().getFullYear()} RedQ, Inc
-            </Text>
+        <Box sx={styles.about}>
+          <Box sx={styles.logo}>
+            <Logo />
           </Box>
-          {menuItems.map(({ id, title, items }) => (
-            <Widget key={id} title={title} items={items} />
-          ))}
+          <Text as="p" sx={styles.copyright}>
+            Copyright by {new Date().getFullYear()} SJR Talent Solutions LTD
+          </Text>
+          <Text as="p">Company No: 14379720</Text>
         </Box>
       </Container>
     </Box>
@@ -38,6 +29,7 @@ const styles = {
   footer: {
     pt: [8],
     pb: [8],
+    alignSelf: 'center',
   },
   footerTopInner: {
     gap: [30, null, 50, '20px 50px', 17, 50],

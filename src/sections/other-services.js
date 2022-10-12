@@ -12,56 +12,56 @@ import icon9 from 'assets/images/icons/service9.png';
 
 const data = [
   {
-    id: 1,
+    id: 4,
     icon: icon4,
     moreLink: '#learn-more',
-    title: '3D modeling & art',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 2,
-    icon: icon5,
-    moreLink: '#learn-more',
-    title: 'Digital promotion',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 3,
-    icon: icon6,
-    moreLink: '#learn-more',
-    title: 'Business Enterprise',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
-  },
-  {
-    id: 4,
-    icon: icon7,
-    moreLink: '#learn-more',
-    title: 'Marketing & advertising',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'London - HQ',
+    description: `1 Poultry, London EC2R 8EJ, United Kingdom`,
   },
   {
     id: 5,
-    icon: icon8,
+    icon: icon5,
     moreLink: '#learn-more',
-    title: 'Ultimate development',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'New York',
+    description: `450 Lexington Ave, New York, NY 10017, United States`,
   },
   {
     id: 6,
+    icon: icon6,
+    moreLink: '#learn-more',
+    title: 'Dubai',
+    description: `One Central 8th and 9th Floor - Dubai - United Arab Emirates`,
+  },
+  {
+    id: 7,
+    icon: icon7,
+    moreLink: '#learn-more',
+    title: 'Hong Kong',
+    description: `G/F, 5-13, New St, Sai Ying Pun, Hong Kong`,
+  },
+  {
+    id: 8,
+    icon: icon8,
+    moreLink: '#learn-more',
+    title: 'Sydney',
+    description: `5 Martin Place,Sydney, NSW 2000`,
+  },
+  {
+    id: 9,
     icon: icon9,
     moreLink: '#learn-more',
-    title: 'Online support',
-    description: `Get your info tests delivered at home collect a sample from the your progress tests.`,
+    title: 'Paris',
+    description: `33 Rue La Fayette, 75009 Paris, France`,
   },
 ];
 
 const OtherServices = () => {
   return (
-    <Box as="section" sx={styles.section}>
+    <Box as="section" sx={styles.section} id="other-services">
       <Container>
         <SectionHeading
           sx={styles.heading}
-          title="Other services you must appreciate"
+          title="Contact Us"
           description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
         />
         <Box sx={styles.contentWrapper}>
@@ -89,6 +89,7 @@ const styles = {
     },
   },
   contentWrapper: {
+    justifyItems: 'center',
     gap: ['30px 30px', '30px 30px', '30px 30px', '80px 30px'],
     display: 'grid',
     justifyContent: ['center', 'center', 'center', 'unset'],

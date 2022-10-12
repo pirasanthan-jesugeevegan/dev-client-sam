@@ -7,7 +7,7 @@ import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
 import TeamMember from 'components/cards/team-member';
 
-import avatar1 from 'assets/images/team/member1.png';
+import avatar1 from 'assets/images/team/sam.jpeg';
 import avatar2 from 'assets/images/team/member2.png';
 import avatar3 from 'assets/images/team/member3.png';
 import avatar4 from 'assets/images/team/member4.png';
@@ -19,147 +19,150 @@ const data = [
   {
     id: 1,
     avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
+    name: 'Sam Rosenthal',
+    designation: 'Director',
+    phone: '++44(0)7741886126',
+    email: 'sam.sjrtalentsoultions.co.uk',
+    name: 'Sam Rosenthal',
     socialLinks: [
       {
-        name: 'twitter',
-        link: 'http://twitter.com',
+        name: 'linkedin',
+        link: 'https://www.linkedin.com/in/sam-rosenthal-1535b84b/',
       },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
+      // {
+      //   name: 'twitter',
+      //   link: 'http://twitter.com',
+      // },
+      // {
+      //   name: 'facebook',
+      //   link: 'http://twitter.com',
+      // },
     ],
   },
-  {
-    id: 2,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 3,
-    avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-    ],
-  },
-  {
-    id: 4,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 5,
-    avatar: avatar1,
-    name: 'Emmalee Mclain',
-    designation: 'Product Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 6,
-    avatar: avatar2,
-    name: 'Daisy Morgan',
-    designation: 'Lead developer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
-  {
-    id: 7,
-    avatar: avatar3,
-    name: 'Ariyanna Hicks',
-    designation: 'Experience Designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-    ],
-  },
-  {
-    id: 8,
-    avatar: avatar4,
-    name: 'Yamilet Hooker',
-    designation: 'User interface designer',
-    socialLinks: [
-      {
-        name: 'twitter',
-        link: 'http://twitter.com',
-      },
-      {
-        name: 'github',
-        link: 'http://github.com',
-      },
-      {
-        name: 'dribbble',
-        link: 'http://dribbble.com',
-      },
-    ],
-  },
+  // {
+  //   id: 2,
+  //   avatar: avatar2,
+  //   name: 'Daisy Morgan',
+  //   designation: 'Lead developer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 3,
+  //   avatar: avatar3,
+  //   name: 'Ariyanna Hicks',
+  //   designation: 'Experience Designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 4,
+  //   avatar: avatar4,
+  //   name: 'Yamilet Hooker',
+  //   designation: 'User interface designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 5,
+  //   avatar: avatar1,
+  //   name: 'Emmalee Mclain',
+  //   designation: 'Product Designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 6,
+  //   avatar: avatar2,
+  //   name: 'Daisy Morgan',
+  //   designation: 'Lead developer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 7,
+  //   avatar: avatar3,
+  //   name: 'Ariyanna Hicks',
+  //   designation: 'Experience Designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //   ],
+  // },
+  // {
+  //   id: 8,
+  //   avatar: avatar4,
+  //   name: 'Yamilet Hooker',
+  //   designation: 'User interface designer',
+  //   socialLinks: [
+  //     {
+  //       name: 'twitter',
+  //       link: 'http://twitter.com',
+  //     },
+  //     {
+  //       name: 'github',
+  //       link: 'http://github.com',
+  //     },
+  //     {
+  //       name: 'dribbble',
+  //       link: 'http://dribbble.com',
+  //     },
+  //   ],
+  // },
 ];
 
 const OurTeam = () => {
@@ -221,7 +224,7 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Meet our superheros"
+          title="Meet our Team"
           description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
         />
       </Container>
@@ -249,10 +252,11 @@ const OurTeam = () => {
         )}
 
         <Swiper
+          sx={{ pl: [null, '10%', '15%', '40%', '40%'] }}
           ref={swiperRef}
-          spaceBetween={30}
+          spaceBetween={10}
           watchSlidesVisibility={true}
-          slidesPerView={5}
+          slidesPerView={1}
           breakpoints={breakpoints}
         >
           {data?.map((item) => (

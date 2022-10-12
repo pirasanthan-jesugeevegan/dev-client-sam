@@ -1,32 +1,40 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Flex, Box, Image, Text, Heading, Link } from 'theme-ui';
-import { FaTwitter, FaGithub, FaDribbble } from 'react-icons/fa';
+import { FaTwitter, FaFacebook, FaLinkedin } from 'react-icons/fa';
 
 const TeamMember = ({ member }) => {
   return (
-    <Box sx={styles.section}>
+    <Box>
       <Flex as="figure" sx={styles.avatar}>
-        <Image src={member?.avatar} alt={member?.name} />
+        <Image
+          src={member?.avatar}
+          alt={member?.name}
+          sx={{ borderRadius: '50%' }}
+        />
       </Flex>
       <Box sx={styles.about}>
         <Heading as="h3">{member?.name}</Heading>
         <Text as="p">{member?.designation}</Text>
+        <Text as="p">
+          <span sx={{ fontWeight: 'bold' }}>Phone: </span>
+          {member?.phone}
+        </Text>
+        <Text as="p">
+          {' '}
+          <span sx={{ fontWeight: 'bold' }}>Email: </span> {member?.email}
+        </Text>
         <Box sx={styles.socialLinks}>
           {member?.socialLinks?.map((social, index) => (
             <Link href={social?.link} key={index}>
+              {social?.name === 'linkedin' && (
+                <FaLinkedin size="18px" color="#55ACEE" />
+              )}
               {social?.name === 'twitter' && (
-                <FaTwitter size="18px" color="#55ACEE" />
+                <FaTwitter size="18px" color="#161614" />
               )}
-              {social?.name === 'github' && (
-                <FaGithub size="18px" color="#161614" />
-              )}
-              {social?.name === 'dribbble' && (
-                <FaDribbble
-                  size="18px"
-                  color="#B2215A"
-                  style={{ backgroundColor: '#E74D89', borderRadius: 20 }}
-                />
+              {social?.name === 'facebook' && (
+                <FaFacebook size="18px" color="#B2215A" />
               )}
             </Link>
           ))}
@@ -44,6 +52,7 @@ const styles = {
     justifyContent: 'center',
   },
   about: {
+    textAlignLast: 'center',
     mt: [4],
     textAlign: ['center', null, null, 'left'],
     h3: {
@@ -59,8 +68,8 @@ const styles = {
   },
   socialLinks: {
     display: 'flex',
-    alignItems: 'center',
-    justifyContent: ['center', null, null, 'left'],
+
+    justifyContent: ['center', null, null, 'center'],
     mt: [3],
     a: {
       display: 'inline-flex',

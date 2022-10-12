@@ -16,7 +16,7 @@ export default [
     label: 'About Us',
   },
   {
-    path: 'blog',
+    path: 'other-services',
     label: 'Contacts',
   },
 ];
