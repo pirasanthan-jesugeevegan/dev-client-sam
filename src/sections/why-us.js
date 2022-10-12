@@ -5,50 +5,45 @@ import Tabs, { TabPane } from 'rc-tabs';
 import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
-import tabImage1 from 'assets/images/tab-illustration-1.png';
-
+import tabImage1 from 'assets/images/undraw_buy_house_re_8xq7.svg';
+import tabImage2 from 'assets/images/undraw_business_plan_re_0v81.svg';
+import tabImage3 from 'assets/images/undraw_savings_re_eq4w.svg';
 const data = [
   {
     id: 1,
-    tabTitle: 'Why you choose our service?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: 'Property Recruitment',
+    title: `Property Recruitment`,
+    description: `With 5 years experience working in the property industry, my network of property professionals is vast and covers a broad range of different types of property work. Including:`,
     moreLink: '#explore-more',
     image: tabImage1,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Estate Agents',
+      'Mortgage Brokers',
+      'Property Law',
+      'Development & Land',
     ],
   },
   {
     id: 2,
-    tabTitle: 'What’s our business promise?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: 'Sales',
+    title: `Sales`,
+    description: `The wonderful buzz word that is "Sales". The majority of business's no matter what their focus has a sales department or are at the stage where due to growth they are in need of one. I have experience selling in most verticals ranging from Insurance to industry intelligence subscriptions.`,
     moreLink: '#explore-more',
-    image: tabImage1,
+    image: tabImage2,
     list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
+      'Business Development Manager',
+      'Client Relationship Manager',
+      'Sales Manager ',
     ],
   },
   {
     id: 3,
-    tabTitle: 'What’s our role model plan?',
-    title: `We will turn your idea in the successful business model framework`,
-    description: `Get your tests delivered at let home collect sample from the victory of the managements that supplies best design system guidelines ever.`,
+    tabTitle: 'Professional Services',
+    title: `Professional Services`,
+    description: `Having started my career in the city working for one of the "BIG 4" I have contacts and experience placing professionals across all professional services verticals.`,
     moreLink: '#explore-more',
-    image: tabImage1,
-    list: [
-      'Medical and vision',
-      'Life insurance',
-      'HSAs and FSAs',
-      'Commuter benefits',
-    ],
+    image: tabImage3,
+    list: ['Management Consultant ', 'Accountants', 'Finance', 'Law'],
   },
 ];
 
@@ -75,12 +70,9 @@ const WhyUs = () => {
                         size="20px"
                         sx={{ mr: 2 }}
                       />
-                      <span>{item}</span>
+                      <span sx={{}}>{item}</span>
                     </Box>
                   ))}
-                </Box>
-                <Box sx={styles.learnMore}>
-                  <LearnMore path={item.moreLink} label="Explore more" />
                 </Box>
               </Box>
               <Box sx={styles.illustration}>
@@ -170,7 +162,7 @@ const styles = {
     mt: [5],
     display: 'grid',
     justifyContent: ['center', null, null, 'unset'],
-    gridTemplateColumns: ['repeat(2, 164px)', null, null, 'repeat(2, 180px)'],
+    gridTemplateColumns: ['repeat(2, 264px)', null, null, 'repeat(2, 180px)'],
   },
   learnMore: {
     mt: [4],
