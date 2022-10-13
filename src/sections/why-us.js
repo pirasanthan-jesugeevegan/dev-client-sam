@@ -6,8 +6,8 @@ import { RiCheckboxCircleFill } from 'react-icons/ri';
 import { rgba } from 'polished';
 import { LearnMore } from 'components/link';
 import tabImage1 from 'assets/images/undraw_buy_house_re_8xq7.svg';
-import tabImage2 from 'assets/images/undraw_business_plan_re_0v81.svg';
-import tabImage3 from 'assets/images/undraw_savings_re_eq4w.svg';
+import tabImage2 from 'assets/images/undraw_savings_re_eq4w.svg';
+import tabImage3 from 'assets/images/undraw_business_plan_re_0v81.svg';
 const data = [
   {
     id: 1,
@@ -70,7 +70,7 @@ const WhyUs = () => {
                         size="20px"
                         sx={{ mr: 2 }}
                       />
-                      <span sx={{}}>{item}</span>
+                      <span>{item}</span>
                     </Box>
                   ))}
                 </Box>
@@ -162,7 +162,7 @@ const styles = {
     mt: [5],
     display: 'grid',
     justifyContent: ['center', null, null, 'unset'],
-    gridTemplateColumns: ['repeat(2, 264px)', null, null, 'repeat(2, 180px)'],
+    gridTemplateColumns: ['repeat(2, 170px)', null, null, 'repeat(2, 300px)'],
   },
   learnMore: {
     mt: [4],

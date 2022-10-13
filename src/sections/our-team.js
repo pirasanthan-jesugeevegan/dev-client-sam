@@ -230,7 +230,7 @@ const OurTeam = () => {
       </Container>
       <Box
         sx={{
-          ml: currentIndex === 0 ? containerOffset?.left : 0,
+          ml: currentIndex === 1 ? containerOffset?.left : 0,
           ...styles.teamWrapper,
         }}
       >
@@ -242,7 +242,7 @@ const OurTeam = () => {
             <Image src={arrowRight} alt="arrow left" />
           </button>
         )}
-        {!isEnd && (
+        {!isEnd && currentIndex === 1 && (
           <button
             className="swiper-arrow swiper-arrow-right"
             onClick={handleNext}
@@ -251,20 +251,11 @@ const OurTeam = () => {
           </button>
         )}
 
-        <Swiper
-          sx={{ pl: [null, '10%', '15%', '40%', '40%'] }}
-          ref={swiperRef}
-          spaceBetween={10}
-          watchSlidesVisibility={true}
-          slidesPerView={1}
-          breakpoints={breakpoints}
-        >
-          {data?.map((item) => (
-            <SwiperSlide key={item.id}>
-              <TeamMember member={item} />
-            </SwiperSlide>
-          ))}
-        </Swiper>
+        {data?.map((item) => (
+          <SwiperSlide key={item.id}>
+            <TeamMember member={item} />
+          </SwiperSlide>
+        ))}
       </Box>
     </Box>
   );

@@ -3,7 +3,7 @@ User-agent: *
 Allow: /
 
 # Host
-Host: https://startup-agency.vercel.app
+Host: https://www.sjrtalentsolutions.co.uk/
 
 # Sitemaps
-Sitemap: https://startup-agency.vercel.app/sitemap.xml
+Sitemap: https://www.sjrtalentsolutions.co.uk/sitemap.xml

@@ -16,14 +16,13 @@ export default function IndexPage() {
     <ThemeProvider theme={theme}>
       <Layout>
         <SEO
-          title="Startup agency landing template"
-          description="Collection of free top of the line startup landing templates built using react/ next js. Free to download, simply edit and deploy! Updated weekly!"
+          title="SJR Talent Solutions | Recruitment"
+          description="SJR Talent Solutions is a recruitment agency and Job recruitment agency that specialises in Property Law, Mortgage Brokers, Client Relationship Manager, Sales Manager, Law & Accountants"
         />
         <Banner />
         <Services />
         {/* <Testimonials /> */}
         <OurTeam />
-
         <WhyUs />
         {/* <Blog /> */}
         <OtherServices />
