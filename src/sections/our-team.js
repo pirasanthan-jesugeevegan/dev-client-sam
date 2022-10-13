@@ -225,7 +225,9 @@ const OurTeam = () => {
         <SectionHeading
           sx={styles.heading}
           title="Meet our Team"
-          description="Build an incredible workplace and grow your business with Gusto’s all-in-one platform with amazing contents."
+          description="Experienced Business Development Manager with many years selling B2B & B2C. Having worked in a variety of verticals ranging from Professional services & Insurance to close protection & Property. 
+
+         "
         />
       </Container>
       <Box
