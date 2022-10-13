@@ -3,12 +3,12 @@
 import { jsx, Box, Container } from 'theme-ui';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon4 from 'assets/images/icons/service4.png';
-import icon5 from 'assets/images/icons/service5.png';
-import icon6 from 'assets/images/icons/service6.png';
-import icon7 from 'assets/images/icons/service7.png';
-import icon8 from 'assets/images/icons/service8.png';
-import icon9 from 'assets/images/icons/service9.png';
+import icon4 from 'assets/images/icons/big-ben-1495347-1266202.png';
+import icon5 from 'assets/images/icons/new-32-101657.png';
+import icon6 from 'assets/images/icons/burj-al-arab-1423075-1203733.png';
+import icon7 from 'assets/images/icons/gate-6407183-5359668.png';
+import icon8 from 'assets/images/icons/opera-house-1407513-1188571.png';
+import icon9 from 'assets/images/icons/eiffel-tower-3724353-3110853.png';
 
 const data = [
   {

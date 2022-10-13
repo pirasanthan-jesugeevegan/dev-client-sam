@@ -6,7 +6,7 @@ const Service = ({ item }) => {
   return (
     <Box sx={styles.serviceItem}>
       <Box sx={styles.content}>
-        <Image src={item?.icon} variant="avatar" />
+        <Image src={item?.icon} sx={{ width: '100px' }} />
         <Heading as="h3">{item?.title}</Heading>
         <Text as="p">{item?.description}</Text>
       </Box>

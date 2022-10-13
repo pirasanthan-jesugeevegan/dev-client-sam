@@ -16,9 +16,9 @@ export default function Footer() {
             <Logo />
           </Box>
           <Text as="p" sx={styles.copyright}>
-            Copyright by {new Date().getFullYear()} SJR Talent Solutions LTD
+            Copyright by 2022 SJR Talent Solutions LTD <br></br>
+            Company No: 14379720
           </Text>
-          <Text as="p">Company No: 14379720</Text>
         </Box>
       </Container>
     </Box>

@@ -22,7 +22,7 @@ const data = [
     name: 'Sam Rosenthal',
     designation: 'Director',
     phone: '++44(0)7741886126',
-    email: 'sam.sjrtalentsoultions.co.uk',
+    email: 'sam@sjrtalentsolutions.co.uk',
     name: 'Sam Rosenthal',
     socialLinks: [
       {

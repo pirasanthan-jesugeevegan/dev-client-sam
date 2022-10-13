@@ -4,9 +4,9 @@ import { jsx, Box, Container } from 'theme-ui';
 import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
-import icon1 from 'assets/images/icons/service1.png';
-import icon2 from 'assets/images/icons/service2.png';
-import icon3 from 'assets/images/icons/service3.png';
+import icon1 from 'assets/images/icons/cv-4583519-3819072.png';
+import icon2 from 'assets/images/icons/search-find-broker-seller-buyer-man-estate-magnifier-4-12176.png';
+import icon3 from 'assets/images/icons/management-5504506-4585413.png';
 
 const data = [
   {
