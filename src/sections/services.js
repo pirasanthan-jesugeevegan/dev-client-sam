@@ -11,21 +11,21 @@ import icon3 from 'assets/images/icons/management-5504506-4585413.png';
 const data = [
   {
     id: 1,
-    icon: icon1,
-    title: 'CV & Interview Coaching',
-    description: `Getting a new role is all about effectively selling yourself.. Their first impression of you will be what CV you have decided to put out there. With 10+ years experience my team will work with you to get the best version of you sent out to potential employers. I also conduct a free 1-1 session up to 30 minutes`,
-  },
-  {
-    id: 2,
     icon: icon2,
     title: 'Executive Search',
     description: `I am trusted by my clients to deliver on staffing needs at all senioirty levels. Due to my relationships with my clients I have market information ahead of my competition and am able to brief my candidates on upcoming roles first, therefore giving them the best chance of gaining their perfect role.`,
   },
   {
-    id: 3,
+    id: 2,
     icon: icon3,
     title: 'Team Moves',
     description: `Working strategically with clients on larger scale projects that require 5+ members of staff to be recruited at once. Potentially in a new area to the business or a location move E.G London office for a business HQ in Birmingham.`,
+  },
+  {
+    id: 3,
+    icon: icon1,
+    title: 'CV & Interview Coaching',
+    description: `Getting a new role is all about effectively selling yourself. Their first impression of you will be what CV you have decided to put out there. With 10+ years experience my team will work with you to get the best version of you sent out to potential employers. I also conduct a free 1-1 session up to 30 minutes`,
   },
 ];
 

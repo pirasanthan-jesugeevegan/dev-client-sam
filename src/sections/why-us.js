@@ -11,17 +11,12 @@ import tabImage3 from 'assets/images/undraw_business_plan_re_0v81.svg';
 const data = [
   {
     id: 1,
-    tabTitle: 'Property Recruitment',
-    title: `Property Recruitment`,
-    description: `With 5 years experience working in the property industry, my network of property professionals is vast and covers a broad range of different types of property work. Including:`,
+    tabTitle: 'Professional Services',
+    title: `Professional Services`,
+    description: `Having started my career in the city working for one of the "BIG 4" I have contacts and experience placing professionals across all professional services verticals.`,
     moreLink: '#explore-more',
-    image: tabImage1,
-    list: [
-      'Estate Agents',
-      'Mortgage Brokers',
-      'Property Law',
-      'Development & Land',
-    ],
+    image: tabImage3,
+    list: ['Management Consultant ', 'Accountants', 'Finance', 'Law'],
   },
   {
     id: 2,
@@ -38,12 +33,17 @@ const data = [
   },
   {
     id: 3,
-    tabTitle: 'Professional Services',
-    title: `Professional Services`,
-    description: `Having started my career in the city working for one of the "BIG 4" I have contacts and experience placing professionals across all professional services verticals.`,
+    tabTitle: 'Property Recruitment',
+    title: `Property Recruitment`,
+    description: `With 5 years experience working in the property industry, my network of property professionals is vast and covers a broad range of different types of property work. Including:`,
     moreLink: '#explore-more',
-    image: tabImage3,
-    list: ['Management Consultant ', 'Accountants', 'Finance', 'Law'],
+    image: tabImage1,
+    list: [
+      'Estate Agents',
+      'Mortgage Brokers',
+      'Property Law',
+      'Development & Land',
+    ],
   },
 ];
 
