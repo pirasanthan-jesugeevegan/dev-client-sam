@@ -90,6 +90,7 @@ export default WhyUs;
 
 const styles = {
   section: {
+    backgroundColor: rgba('#FFF5ED', 0.5),
     pt: [11, null, null, 12],
     pb: [8, null, null, 9, null, 11],
   },

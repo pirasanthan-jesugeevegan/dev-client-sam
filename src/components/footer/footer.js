@@ -27,6 +27,7 @@ export default function Footer() {
 
 const styles = {
   footer: {
+    
     pt: [8],
     pb: [8],
     alignSelf: 'center',

@@ -2,6 +2,7 @@
 /** @jsx jsx */
 import { useRef, useState, useEffect } from 'react';
 import { jsx, Box, Container, Image } from 'theme-ui';
+import { rgba } from 'polished';
 import SwiperCore, { Navigation, Pagination } from 'swiper';
 import { Swiper, SwiperSlide } from 'swiper/react';
 import SectionHeading from 'components/section-heading';
@@ -267,6 +268,7 @@ export default OurTeam;
 
 const styles = {
   section: {
+    backgroundColor: rgba('#FFF5ED', 0.5),
     pt: [11],
     pb: [11, null, null, 12, null, 14],
   },

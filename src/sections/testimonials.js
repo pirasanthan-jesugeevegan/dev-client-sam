@@ -4,29 +4,27 @@ import { jsx, Box, Container, Image, Text } from 'theme-ui';
 import Tabs, { TabPane } from 'rc-tabs';
 import { rgba } from 'polished';
 import quote from 'assets/images/icons/quote.png';
-import uber from 'assets/images/logos/uber.png';
-import google from 'assets/images/logos/google.png';
-import paypal from 'assets/images/logos/paypal.png';
-import microsoft from 'assets/images/logos/microsoft.png';
-import dribbble from 'assets/images/logos/dribbble.png';
+import sherrards from 'assets/images/logos/sherrards.png';
+import cms from 'assets/images/logos/cms.png';
+import druces from 'assets/images/logos/druces.png';
 
 const data = [
   {
     id: 1,
-    logo: uber,
+    logo: sherrards,
     author: 'Sherrards Solicitors',
     quote: `“Sam is a very enthusiastic person and he is passionate about his work. I would no doubt to say that he is the best recruitment agent! He understands his client's need and makes every effort to bring the best for his client. He does in fact makes people's dream come true. I would give the best recommendation to anyone uses his services! ”`,
   },
   {
     id: 2,
-    logo: google,
+    logo: cms,
     author: 'CMS Cameron McKenna Nabarro Olswang LLP',
     quote: `“Sam was very personable and worked efficiently to help me secure a new role in the legal profession. The employers he put me in touch with were all high quality and matched my specifications well. More importantly, Sam was honest and up-front about my prospects, and how the process would work. He didn't try to sell me positions that I hadn't expressed an interest in and at no stage did I feel pressured. This was something that I really appreciated, having had a rather different experience with certain other recruiters that I have spoken to.”`,
   },
   {
     id: 3,
-    logo: paypal,
-    author: 'AGENT IS Druces LLP',
+    logo: druces,
+    author: 'Druces LLP',
     quote: `“Sam is the most responsive and active agent I've had the pleasure of working with to date in my career. As a result of his efforts I have been offered a role that I'm extremely happy with. I strongly recommend Sam as an agent.”`,
   }
 ];

@@ -31,6 +31,7 @@ export default Banner;
 
 const styles = {
   section: {
+    backgroundColor: rgba('#FFF5ED', 0.5),
     position: 'relative',
     pt: [105, null, null, 140, 15, null, 170],
     pb: [8, null, null, 0],

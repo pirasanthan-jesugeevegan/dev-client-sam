@@ -68,6 +68,7 @@ export default SubscribeUs;
 
 const styles = {
   section: {
+    backgroundColor: rgba('#FFF5ED', 0.5),
     background: [
       'none',
       null,

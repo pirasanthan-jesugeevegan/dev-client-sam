@@ -1,6 +1,7 @@
 /** @jsxRuntime classic */
 /** @jsx jsx */
 import { jsx, Box, Container } from 'theme-ui';
+import { rgba } from 'polished';
 import SectionHeading from 'components/section-heading';
 import Service from 'components/cards/service';
 import icon4 from 'assets/images/icons/big-ben-1495347-1266202.png';
@@ -41,7 +42,7 @@ export default OtherServices;
 
 const styles = {
   section: {
-    backgroundColor: '#F9FAFC',
+    backgroundColor: rgba('#FFF5ED', 0.5),
     pt: [9, 9, 9, 11],
     pb: [9, 9, 9, 12, 12, 14],
   },
@@ -54,9 +55,9 @@ const styles = {
   },
   contentWrapper: {
     justifyItems: 'center',
-    // gap: ['30px 30px', '30px 30px', '30px 30px', '80px 30px'],
-    // display: 'grid',
-    //justifyContent: ['center', 'center', 'center', 'unset'],
+    gap: ['30px 30px', '30px 30px', '30px 30px', '80px 30px'],
+    display: 'grid',
+    justifyContent: ['center', 'center', 'center', 'unset'],
     justifyContent: 'center',
     // gridTemplateColumns: [
     //   'repeat(1, 285px)',

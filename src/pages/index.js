@@ -22,11 +22,13 @@ export default function IndexPage() {
         <Banner />
         <OurTeam />
         <Services />
-        <Testimonials />
+      
      
         <WhyUs />
         {/* <Blog /> */}
+        <Testimonials />
         <OtherServices />
+       
       </Layout>
     </ThemeProvider>
   );
