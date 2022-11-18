@@ -19,7 +19,7 @@ const Banner = () => {
             {/* <Box sx={styles.buttonWrapper}>
               <Button>Get Started</Button>
             </Box> */}
-            <Image src={illustration} alt="illustration" />
+            {/* <Image src={illustration} alt="illustration" /> */}
           </Box>
         </Box>
       </Container>

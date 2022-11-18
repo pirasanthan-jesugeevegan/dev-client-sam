@@ -4,12 +4,12 @@ export default [
     label: 'Home',
   },
   {
-    path: 'services',
-    label: 'Our Services',
-  },
-  {
     path: 'team',
     label: 'Team',
+  },
+  {
+    path: 'services',
+    label: 'Our Services',
   },
   {
     path: 'why-us',

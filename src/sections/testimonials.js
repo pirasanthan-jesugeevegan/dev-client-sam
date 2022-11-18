@@ -14,33 +14,21 @@ const data = [
   {
     id: 1,
     logo: uber,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
+    author: 'Sherrards Solicitors',
+    quote: `“Sam is a very enthusiastic person and he is passionate about his work. I would no doubt to say that he is the best recruitment agent! He understands his client's need and makes every effort to bring the best for his client. He does in fact makes people's dream come true. I would give the best recommendation to anyone uses his services! ”`,
   },
   {
     id: 2,
     logo: google,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
+    author: 'CMS Cameron McKenna Nabarro Olswang LLP',
+    quote: `“Sam was very personable and worked efficiently to help me secure a new role in the legal profession. The employers he put me in touch with were all high quality and matched my specifications well. More importantly, Sam was honest and up-front about my prospects, and how the process would work. He didn't try to sell me positions that I hadn't expressed an interest in and at no stage did I feel pressured. This was something that I really appreciated, having had a rather different experience with certain other recruiters that I have spoken to.”`,
   },
   {
     id: 3,
     logo: paypal,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
-  },
-  {
-    id: 4,
-    logo: microsoft,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Qwilr Page we have made for them. Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a”`,
-  },
-  {
-    id: 5,
-    logo: dribbble,
-    author: 'By Denny Albuz, Adviser of Paypal',
-    quote: `“Whatever we create in Qwilr looks absolutely brilliant. It helps show our work in the best light, and is downright impressive when clients see a Qwilr Page we have made for them.”`,
-  },
+    author: 'AGENT IS Druces LLP',
+    quote: `“Sam is the most responsive and active agent I've had the pleasure of working with to date in my career. As a result of his efforts I have been offered a role that I'm extremely happy with. I strongly recommend Sam as an agent.”`,
+  }
 ];
 
 const Testimonials = () => {
@@ -56,9 +44,9 @@ const Testimonials = () => {
             <TabPane key={item.id} tab={<Image src={item.logo} alt="logo" />}>
               <Box as="blockquote">
                 {item.quote}
-                <Text as="span" sx={styles.author}>
+                {/* <Text as="span" sx={styles.author}>
                   {item.author}
-                </Text>
+                </Text> */}
               </Box>
             </TabPane>
           ))}

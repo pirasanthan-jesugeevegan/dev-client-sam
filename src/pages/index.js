@@ -20,9 +20,10 @@ export default function IndexPage() {
           description="SJR Talent Solutions is a recruitment agency and Job recruitment agency that specialises in Property Law, Mortgage Brokers, Client Relationship Manager, Sales Manager, Law & Accountants"
         />
         <Banner />
-        <Services />
-        {/* <Testimonials /> */}
         <OurTeam />
+        <Services />
+        <Testimonials />
+     
         <WhyUs />
         {/* <Blog /> */}
         <OtherServices />

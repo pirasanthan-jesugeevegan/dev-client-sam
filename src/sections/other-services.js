@@ -17,42 +17,7 @@ const data = [
     moreLink: '#learn-more',
     title: 'London - HQ',
     description: `1 Poultry, London EC2R 8EJ, United Kingdom`,
-  },
-  {
-    id: 5,
-    icon: icon5,
-    moreLink: '#learn-more',
-    title: 'New York',
-    description: `450 Lexington Ave, New York, NY 10017, United States`,
-  },
-  {
-    id: 6,
-    icon: icon6,
-    moreLink: '#learn-more',
-    title: 'Dubai',
-    description: `One Central 8th and 9th Floor - Dubai - United Arab Emirates`,
-  },
-  {
-    id: 7,
-    icon: icon7,
-    moreLink: '#learn-more',
-    title: 'Hong Kong',
-    description: `G/F, 5-13, New St, Sai Ying Pun, Hong Kong`,
-  },
-  {
-    id: 8,
-    icon: icon8,
-    moreLink: '#learn-more',
-    title: 'Sydney',
-    description: `5 Martin Place,Sydney, NSW 2000`,
-  },
-  {
-    id: 9,
-    icon: icon9,
-    moreLink: '#learn-more',
-    title: 'Paris',
-    description: `33 Rue La Fayette, 75009 Paris, France`,
-  },
+  }
 ];
 
 const OtherServices = () => {
@@ -62,7 +27,6 @@ const OtherServices = () => {
         <SectionHeading
           sx={styles.heading}
           title="Contact Us"
-          description="Focus only on the meaning, we take care of the design. As soon as the meeting end you can export in one click into your preferred."
         />
         <Box sx={styles.contentWrapper}>
           {data?.map((item) => (
@@ -90,14 +54,15 @@ const styles = {
   },
   contentWrapper: {
     justifyItems: 'center',
-    gap: ['30px 30px', '30px 30px', '30px 30px', '80px 30px'],
-    display: 'grid',
-    justifyContent: ['center', 'center', 'center', 'unset'],
-    gridTemplateColumns: [
-      'repeat(1, 285px)',
-      'repeat(1, 325px)',
-      'repeat(1, 285px)',
-      'repeat(3, 1fr)',
-    ],
+    // gap: ['30px 30px', '30px 30px', '30px 30px', '80px 30px'],
+    // display: 'grid',
+    //justifyContent: ['center', 'center', 'center', 'unset'],
+    justifyContent: 'center',
+    // gridTemplateColumns: [
+    //   'repeat(1, 285px)',
+    //   'repeat(1, 325px)',
+    //   'repeat(1, 285px)',
+    //   'repeat(1, 1fr)',
+    // ],
   },
 };

@@ -21,7 +21,7 @@ const data = [
     avatar: avatar1,
     name: 'Sam Rosenthal',
     designation: 'Director',
-    phone: '++44(0)7741886126',
+    phone: '+44(0)7741886126',
     email: 'sam@sjrtalentsolutions.co.uk',
     name: 'Sam Rosenthal',
     socialLinks: [
@@ -224,8 +224,8 @@ const OurTeam = () => {
       <Container ref={containerRef}>
         <SectionHeading
           sx={styles.heading}
-          title="Meet our Team"
-          description="Experienced Business Development Manager with many years selling B2B & B2C. Having worked in a variety of verticals ranging from Professional services & Insurance to close protection & Property. 
+          title="Meet our Director"
+          description="Experienced Business Development Manager with many years selling B2B & B2C. Having worked in a variety of verticals ranging from Professional services & Property. 
 
          "
         />
